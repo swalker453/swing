@@ -144,7 +144,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	{
 		return -1;			// エラーが起きたら直ちに終了
 	}
-	SetMainWindowText("名門の森 力学・波動編第13問 シミュレーション ");
+	SetMainWindowText("名問の森 波動II・電磁気・原子編第13問 シミュレーション ");
 	ChangeFont("ＭＳ　ゴシック");
 	SetFontThickness(2);
 	SetGraphMode(WINDOW_X, WINDOW_Y, 32);	//ウインドウ構築
