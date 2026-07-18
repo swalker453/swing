@@ -136,10 +136,11 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	double rail_tani = 64.0;
 	double rail_edge = -rail_tani;
 
+	SetOutApplicationLogValidFlag(FALSE);
 	ChangeWindowMode(TRUE);
 	SetAlwaysRunFlag(TRUE);		//常時実行
 
-	SetOutApplicationLogValidFlag(FALSE);
+
 	if (DxLib_Init() == -1)		// ＤＸライブラリ初期化処理
 	{
 		return -1;			// エラーが起きたら直ちに終了
